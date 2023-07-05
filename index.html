@@ -12,7 +12,7 @@
         <script
         src="https://cdn.jsdelivr.net/gh/tuhinpal/contact-form@master/src/contact-form.min.js"
         id="contactform"
-        error_text=""
+        error_text="Go away!"
         success_text=""
         disable_waittime="true"
         form_worker_url="https://alokosx.ap5575252.workers.dev/"
@@ -28,28 +28,30 @@
         <style>
 
 
+            a:visited {
+  color: #888BDBC;
+}
 
           
             body {
-              background: #88BDBC;
+              background: #88BDBC; <!--bac  
     display: flex;
     flex-direction: column;
-   
     height: 100vh;
     color:#fff;
- }
     
-             .center {
+ }
+.center {
   border-radius: 120px;
   padding: 5px;
   width: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  }
+
 
   
- 
-            }
             h1{
                 text-align: center;
                 font-family: 'Poppins', sans-serif;
@@ -65,6 +67,8 @@ background: #112D32;
 padding: 2rem 2rem 2rem 2rem;
 
 border-radius:  15px 15px 15px 15px;
+border: 1px solid white;
+box-shadow: 0px 0px 10px black;
 }
             li {
                 font-family: Arial, Helvetica, sans-serif;
@@ -168,12 +172,24 @@ li a:hover:not(.active) {
 
 }
 
+.link-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  padding: 10px;
+  background-color: #161B21;
+  margin-left:30px;
+  margin-right:30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 10px black;
+}
 
-
-
-
-
-
+.link-preview img {
+  width: 100%;
+  margin: auto;
+}
 
 
 html {
@@ -320,22 +336,19 @@ html {
                   <img src="images/codechef.jpg" class="okokok">
                   </a>
                   
-
-  
-
-      
-      
     </div>
+    <br>
+    <br>
+    <div class="link-preview">
+  <a href="https://open.spotify.com/user/7szgmwgtlqzj7m2xu64967ptr">
+    <img src="https://spotify-readme-3s61yj059-xditya.vercel.app/api/spotify" alt="Spotify">
+  </a>
+</div>
 
-    
 
 <br>
 <br>
 <br><br>
-   
-        <p class="alok">
-            Made by Alok.
-        </p>
       
                 
       
