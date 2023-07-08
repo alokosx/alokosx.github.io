@@ -91,6 +91,7 @@ p.alok {
       position: relative;
       margin-left: 25px;
       margin-right: 25px;
+      z-index: +1;
       }
 .link-preview {
       display: flex;
@@ -103,10 +104,12 @@ p.alok {
       border-radius: 10px;
       backdrop-filter: blur(10px);
       box-shadow: 0px 0px 20px black;
+      z-index+1;
       }
 .link-preview img {
       width: 100%;
-      margin: auto;
+      margin: auto
+      z-index: +1;
       }
   
            
